@@ -1,5 +1,5 @@
 {
-  "name": "f23wb84layman",
+  "name": "s23db84layman",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -7,14 +7,15 @@
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
-    "debug": "^4.3.4",
-    "express": "^4.18.2",
-    "http-errors": "^2.0.0",
-    "morgan": "^1.10.0",
-    "pug": "^3.0.2"
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11"
   },
-  "description": "creating a server using pug",
+  "description": "fix?",
   "main": "app.js",
-  "author": "Jacob Layman",
+  "devDependencies": {},
+  "author": "me",
   "license": "ISC"
 }
