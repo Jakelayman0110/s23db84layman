@@ -1,9 +1,8 @@
-var createError = require("http-errors");
 var express = require("express");
 var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
-var donut = require("./models/donut");
+var Donut = require("./models/donut");
 
 require("dotenv").config();
 const connectionString = process.env.MONGO_CON;
@@ -91,7 +90,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
-app.use("/table", tableRouter);
+app.use("/donut", tableRouter);
 app.use("/board", boardRouter);
 app.use("/choose", chooseRouter);
 app.use("/resource", resourceRouter);
